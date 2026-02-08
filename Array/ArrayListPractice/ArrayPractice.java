@@ -1,16 +1,16 @@
-public class Array
+public class ArrayPractice
 {
     // The array types are all the types we know (int, short, etc...)
     // Can also have arrays of objects or enums 
 
-    int[] integerArray ; // declaring array
-    String[] stringArray = {"hi", "bye"} ; // declaring and initializing in same step
-    double[] doubleArray = new double[2] ; // declaring and initializing in same step
-    float[] floatArray ;
+    private int[] integerArray ; // declaring array
+    private String[] stringArray = {"hi", "bye"} ; // declaring and initializing in same step
+    private double[] doubleArray = new double[2] ; // declaring and initializing in same step
+    private float[] floatArray ;
 
-    Array object ;
+    private ArrayPractice object ; // the type is the class
 
-    public Array ()
+    public ArrayPractice ()
     {
         integerArray = new int[3] ; // initializing array. this array has 3 memory blocks
         doubleArray[0] = 4.4 ; // giving a value, has to be done in constructor
@@ -24,7 +24,7 @@ public class Array
     public static void main(String[] args) 
     {
         //System.out.println(integerArray.length) ; // This doesnt work because I need to either make array static or assign it to an object
-        Array object = new Array() ; // making an object so i can get array values idk
+        ArrayPractice object = new ArrayPractice() ; // making an object so i can get array values idk
         System.out.println(object.integerArray.length) ;
     }
 }
