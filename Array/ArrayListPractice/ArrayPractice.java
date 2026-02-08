@@ -8,8 +8,6 @@ public class ArrayPractice
     private double[] doubleArray = new double[2] ; // declaring and initializing in same step
     private float[] floatArray ;
 
-    private ArrayPractice object ; // the type is the class
-
     public ArrayPractice ()
     {
         integerArray = new int[3] ; // initializing array. this array has 3 memory blocks
