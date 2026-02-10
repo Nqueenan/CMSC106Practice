@@ -1,11 +1,12 @@
 public class Node<T> 
 {
-    private T object ;
-    Node<T> node ;
+    private T data ;
+    Node<T> next ;
 
-    public Node(T element)
+    public Node(T data, Node<T> next)
     {
-        Node<T> node = new Node<T> ;
+        this.data = data ;
+        this.next = null ;
     }
     public static void main(String[] args) 
     {
