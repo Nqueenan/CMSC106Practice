@@ -6,7 +6,7 @@ package inheritance;
 public class CSCourse extends Course
 {
     // New CS-Specific Instance vars
-    private static String dept = "CS" ; // Static b/c all CS courses are from CS dept
+    private static String dept = "CS" ; // Static b/c all CS courses are from CS dept (it should prob be static final but whatevs)
     private String labSection ;
 
     // Constructor
@@ -39,7 +39,7 @@ public class CSCourse extends Course
     }
 
     // Setters
-    // Usually don't need to give static a setter since it doen't change but I did just to show
+    // This static shouldn't have a setter since it should be final b/c it never changes but I did it just to show
     public void setDept(String dept)
     {
         CSCourse.dept = dept ;

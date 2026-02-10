@@ -1,4 +1,6 @@
 public class Enum 
+// This is just to demonstrate the switch statement, lab 1 has good example of using variables of type enum and referencing them and whatnot.
+
 {
     private enum Fruit{ORANGE,APPLE} ; // making the enum
 
@@ -18,7 +20,6 @@ public class Enum
                 break ;
         }
     }
-
 
 
     public static void main(String[] args) 
