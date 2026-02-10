@@ -9,7 +9,24 @@ public class Node<E>
         this.next = null ;
     }
 
-    // add getters and setters
+    // setters
+    public void setElement(E element)
+    {
+        this.element = element ;
+    }
+    public void setNext(Node<E> next)
+    {
+        this.next = next ;
+    }
+    // getters
+    public E getElement()
+    {
+        return this.element ;
+    }
+    public Node<E> getNext()
+    {
+        return this.next ;
+    }
     public static void main(String[] args) 
     {
         
