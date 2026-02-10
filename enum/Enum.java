@@ -1,0 +1,29 @@
+public class Enum 
+{
+    private enum Fruit{ORANGE,APPLE} ; // making the enum
+
+    // Switch statement with enum
+    public static void printFruit(Fruit fruit)
+    {
+        switch(fruit)
+        {
+            case ORANGE:
+                System.out.println("Orange yay") ;
+                break ;
+            case APPLE:
+                System.out.println("Apple bye") ;
+                break ;
+            default:
+                System.out.println("Wrong fruit") ;
+                break ;
+        }
+    }
+
+
+
+    public static void main(String[] args) 
+    {
+        printFruit(Fruit.APPLE) ;
+        
+    }
+}
